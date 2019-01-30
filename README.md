@@ -25,7 +25,23 @@ To check the database or to [http://localhost:8080/graphiql](http://localhost:80
   }
 }
 ```
-
+Or:
+```
+{  countBooks  }
+```
+Or:
+```
+{  countAuthors  }
+```
+Or:
+```
+{
+  findAllAuthors {
+    id,lastName, firstName
+    
+  }
+}
+```
 Or:
 ```
 mutation {
